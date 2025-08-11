@@ -1,0 +1,111 @@
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.noto-serif-bold {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+main{
+
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+.margin-tb{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.margin-lr{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+
+
+
+.lilly{
+    text-align: center;
+}
+
+.image-size{
+    height: 100%;
+    width: 100%;
+}
+
+.paragraph-marin{
+    margin-top: 15px;
+
+}
+
+.margin_my{
+    margin-left:-100px;
+    margin-top:-100px;
+}
+
+.my-image-size{
+    width:540px;
+    height:597px;
+}
+
+.background-image{    
+   background-image: url(../assets/news-letter-bg.png);
+  
+    height: 573px;
+    width: 1440px;
+    background-repeat: no-repeat;
+}
+
+.bg-1{
+
+    background-image: url(../assets/deal-ana.png);
+
+    height: 201px;
+    width: 367px;
+    
+
+}
+
+.bg-2{
+    background-image: url(../assets/deal-bloom.png);
+
+    height: 201px;
+    width: 367px;
+    
+    
+}
+
+.bg-3{
+    background-image: url(../assets/deal-zabo.png);
+
+    height: 423px;
+    width: 753px;
+    
+
+}
+
+.btn-primary{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border:none;
+    padding: 18x 35px;
+    border-radius: 5px;
+    background-color:#d97706;
+    font-size: medium;
+}
+
+.mx-auto{
+    margin: 0 auto;
+}
