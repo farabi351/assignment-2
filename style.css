@@ -59,6 +59,13 @@ main{
     height:597px;
 }
 
+.trusted-badge-size{
+
+    height: 573px;
+    width: 144px;
+
+}
+
 .background-image{    
    background-image: url(../assets/news-letter-bg.png);
   
@@ -88,9 +95,15 @@ main{
 
 .bg-3{
     background-image: url(../assets/deal-zabo.png);
+    background-repeat: no-repeat;
 
-    height: 423px;
-    width: 753px;
+    /* height: 423px;
+    width: 753px; */
+
+    /* height: 201px;
+    width: 367px; */
+
+
     
 
 }
@@ -108,4 +121,39 @@ main{
 
 .mx-auto{
     margin: 0 auto;
+}
+
+#experience_badge{
+    height:100px;
+    width:100px;
+    margin-left:-200px;
+    margin-top:100px;
+}
+
+@media screen and (max-width: 576px) {
+    .bg-3{
+        height: 201px;
+        width: 367px;
+    }
+
+    .background-image{
+         height: 201px;
+         width: 367px; 
+         
+       
+         
+
+    }
+
+    .trusted-badge-size{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .bg-3{
+        height: 423px;
+        width: 753px; 
+        
+    }
 }
